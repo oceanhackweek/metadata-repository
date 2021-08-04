@@ -1,0 +1,117 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 500px;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": 0, "label": "_:Nc2a7ef5643e84a07b6637dda2f9efa07", "shape": "dot", "title": "_:Nc2a7ef5643e84a07b6637dda2f9efa07"}, {"id": 1, "label": "fisheries management", "shape": "dot", "title": "fisheries management"}, {"id": 2, "label": "\u003cfile:///workspace/ohw21_metadata/metadata-repository/xmlns\u003e", "shape": "dot", "title": "\u003cfile:///workspace/ohw21_metadata/metadata-repository/xmlns\u003e"}, {"id": 3, "label": "ICES Statistical Areas", "shape": "dot", "title": "ICES Statistical Areas"}, {"id": 4, "label": "Statistical units", "shape": "dot", "title": "Statistical units"}, {"id": 5, "label": "The ICES Statistical Areas delineates the divisions and subdivisions of FAO Major Fishing area 27.\nThe ICES Statistical Areas are used as bounding areas for calculation of fish statistics, e.g. catch per unit effort (CPUE) and stock estimates.", "shape": "dot", "title": "The ICES Statistical Areas delineates the divisions and subdivisions of FAO Major Fishing area 27.\nThe ICES Statistical Areas are used as bounding areas for calculation of fish statistics, e.g. catch per unit effort (CPUE) and stock estimates."}, {"id": 6, "label": "marine fishery", "shape": "dot", "title": "marine fishery"}, {"id": 7, "label": "8666c79c-fd1a-4d10-acc2-6040591c3117", "shape": "dot", "title": "8666c79c-fd1a-4d10-acc2-6040591c3117"}, {"id": 8, "label": "unknown", "shape": "dot", "title": "unknown"}, {"id": 9, "label": "dataset", "shape": "dot", "title": "dataset"}, {"id": 10, "label": "boundaries", "shape": "dot", "title": "boundaries"}, {"id": 11, "label": "fishery", "shape": "dot", "title": "fishery"}]);
+        edges = new vis.DataSet([{"from": 0, "label": "dc:subject", "to": 1}, {"from": 0, "label": "rdf:type", "to": 2}, {"from": 0, "label": "dct:title", "to": 3}, {"from": 0, "label": "dc:subject", "to": 4}, {"from": 0, "label": "dct:abstract", "to": 5}, {"from": 0, "label": "dc:subject", "to": 6}, {"from": 0, "label": "dc:identifier", "to": 7}, {"from": 0, "label": "dc:format", "to": 8}, {"from": 0, "label": "dc:type", "to": 9}, {"from": 0, "label": "dc:subject", "to": 10}, {"from": 0, "label": "dc:subject", "to": 11}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
