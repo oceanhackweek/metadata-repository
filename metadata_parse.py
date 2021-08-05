@@ -1,23 +1,33 @@
 # Metadata parsing
 # Description:
 
-from owslib.csw import CatalogueServiceWeb
 import kglab
+import pandas as pd
 
 def main():
 
-    #csw = CatalogueServiceWeb("https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2")
-    #print(csw.identification.type)
-    
     kg = kglab.KnowledgeGraph().load_rdf("emodnet_metadata.xml", format="xml")
+
+    #subgraph = kglab.SubgraphTensor(kg)
+    #pyvis_graph = subgraph.build_pyvis_graph()
+
+    #pyvis_graph.force_atlas_2based()
+    #pyvis_graph.show("tmp.fig03.html")
     
+    # SPARQL Query
+    sparql = """
+SELECT ?dataset ?title
+  WHERE {
+      ?dataset dc:type dc:dataset .
+      ?dataset dc:title ?title .
+  }
+  LIMIT 10
+  """
     
-    subgraph = kglab.SubgraphTensor(kg)
-    pyvis_graph = subgraph.build_pyvis_graph()
+    #df = kg.query_as_df(sparql)
     
-    pyvis_graph.force_atlas_2based()
-    pyvis_graph.show("tmp.fig03.html")
+    #print(df)
 
 main()
-    
-    
+
+
