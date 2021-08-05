@@ -16,17 +16,20 @@ def main():
     
     # SPARQL Query
     sparql = """
-SELECT ?dataset ?title
+SELECT ?dataset ?title ?id
   WHERE {
       ?dataset dc:type dc:dataset .
       ?dataset dc:title ?title .
+      ?dataset dc:identifier ?id .
   }
-  LIMIT 10
+  
   """
     
-    #df = kg.query_as_df(sparql)
+    df = kg.query_as_df(sparql)
     
-    #print(df)
+    df.to_csv("emodnet_dataset_id.csv")
+    
+    
 
 main()
 
