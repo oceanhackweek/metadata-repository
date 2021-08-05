@@ -9,7 +9,7 @@ def main():
     #csw = CatalogueServiceWeb("https://emodnet.ec.europa.eu/geonetwork/emodnet/eng/csw?service=CSW&request=GetCapabilities&VERSION=2.0.2")
     #print(csw.identification.type)
     
-    kg = kglab.KnowledgeGraph().load_rdf("small_metadata.xml", format="xml")
+    kg = kglab.KnowledgeGraph().load_rdf("emodnet_metadata.xml", format="xml")
     
     
     subgraph = kglab.SubgraphTensor(kg)
