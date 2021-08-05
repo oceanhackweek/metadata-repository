@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd http://www.isotc211.org/2005/gco http://schemas.opengis.net/iso/19139/20070417/gco/gco.xsd http://www.isotc211.org/2005/gmx http://schemas.opengis.net/iso/19139/20070417/gmx/gmx.xsd">
+  <gmd:fileIdentifier>
+      <gco:CharacterString>ie.marine.data:dataset.982</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">eng</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:hierarchyLevel>
+      <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode"
+                        codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:organisationName>
+            <gco:CharacterString>Marine Institute</gco:CharacterString>
+         </gmd:organisationName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint>
+                        <gco:CharacterString>Rinville</gco:CharacterString>
+                     </gmd:deliveryPoint>
+                     <gmd:city>
+                        <gco:CharacterString>Oranmore</gco:CharacterString>
+                     </gmd:city>
+                     <gmd:administrativeArea>
+                        <gco:CharacterString>Galway</gco:CharacterString>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode>
+                        <gco:CharacterString>H91 R673</gco:CharacterString>
+                     </gmd:postalCode>
+                     <gmd:country>
+                        <gco:CharacterString>Ireland</gco:CharacterString>
+                     </gmd:country>
+                     <gmd:electronicMailAddress>
+                        <gco:CharacterString>datarequests@marine.ie</gco:CharacterString>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"
+                             codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+      <gco:Date>2020-01-31</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+      <gco:CharacterString>ISDI Metadata Profile</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+      <gco:CharacterString>1.2</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>http://www.opengis.net/def/crs/EPSG/0/3857</gco:CharacterString>
+               </gmd:code>
+               <gmd:codeSpace>
+                  <gco:CharacterString>INSPIRE RS registry</gco:CharacterString>
+               </gmd:codeSpace>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>CE16007 Transatlantic Added Value Survey (Galway to Saint John's, Newfoundland)</gco:CharacterString>
+               </gmd:title>
+               <gmd:alternateTitle>
+                  <gco:CharacterString>Transatlantic Added Value Survey (Galway to Saint John's, Newfoundland) between Ireland and Canada</gco:CharacterString>
+               </gmd:alternateTitle>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2017-11-21</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2020-01-31</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2016-04-07</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                             codeListValue="creation">creation</gmd:CI_DateTypeCode>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+               <gmd:identifier>
+                  <gmd:MD_Identifier uuid="ie.marine.data:dataset.982">
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:dataset.982</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:identifier>
+               <gmd:identifier>
+                  <gmd:MD_Identifier uuid="ie.marine.data:dataset.982">
+                     <gmd:code>
+                        <gco:CharacterString>{"@context":"http://schema.org","@type":"Dataset","name":"CE16007 Transatlantic Added Value Survey (Galway to Saint John's, Newfoundland)","description":"This multidisciplinary 14 day transatlantic survey took place in Aptil 2017 on board the Marine Institute's R.V. Celtic Explorer. This research cruise is a survey that has been conducted annually since 2011 along a similar cruise track, with each year building on the body of work. The planned course intersects a persistent or persistently recurring eddy east of the Newfoundland Grand Banks at about 40W 48N. This was the final cruise of a series of collaborative endeavours between the Fisheries and Marine Institute of Memorial University of Newfoundlandand National Univeristy of Ireland, Galway (NUIG) and  completed a valuable dataset on warm core eddies. An eddy is a circular current of water that diverges from the general patterns of ocean flow. The circular motion of the eddy causes greater mixing of water in the eddy, which brings nutrients that would ordinarily be in deep waters up into shallower waters that light can reach.     It provided opportunities to map portions of the midAtlantic ridge, a major aspiration of the Atlantic Ocean Research Alliance. During the survey, the M6 Buoy was deployed, CTD (Conductivity-Temperature-Depth) sampling and plankton sampling was carried out, as well as trawling for cephalopod larvae/juveniles . Visual surveys for seabirds were also conducted. ","url": "https://data.marine.ie/dataset/982","temporalCoverage": "2016-04-07T23:00:00/2016-04-21","keywords":["Physical oceanography","Atmosphere","Water column temperature and salinity","Sea level","Meteorology"],"variablesMeasured":["Date (time from 00:00 01/01/1760 to 00:00 UT on day)","Depth below surface of the water body","Latitude north","Longitude east","Sea Surface Density","Sea Surface Salinity","Sea Surface Temperature","Density (potential) of the water body by computation from salinity and potential temperature using UNESCO algorithm with 0 decibar reference pressure","Electrical conductivity of the water body","Pressure (measured variable) exerted by the water body plus atmosphere","Practical salinity of the water body by computation using UNESCO 1983 algorithm","Temperature of the water body","Pressure (measured variable) exerted by the atmosphere","Temperature of the atmosphere","Date (time from 00:00 01/01/1760 to 00:00 UT on day)","Depth below surface of the water body","Latitude north","Longitude east","Platform Id","Platform Name","Orientation (horizontal relative to true north) of measurement device {heading}","Relative humidity of the atmosphere","Sea Surface Salinity","Sea Surface Temperature","Direction from of wind relative to True North {wind direction} in the atmosphere","Speed of wind {wind speed} in the atmosphere","Speed of wind (gust) {wind speed} in the atmosphere","Latitude north","Longitude east","Sea-floor depth (below Lowest Astronomical Tide datum) {bathymetric depth} in the water body","Depth below surface of the water body","Date (time from 00:00 01/01/1760 to 00:00 UT on day)"],"creator":{"@type":"Organization","url":"http://www.marine.ie","name": "Marine Institute"},"license": ["CC-By 4.0"],"spatialCoverage":{"@type": "Place","geo" : { "@type": "GeoShape", "line": "53.269818,-9.0489469999999 53.232295,-9.099379 53.179549,-9.994269 53.126646,-11.633311 52.952656,-15.410731 52.53276,-19.01611 51.53285,-27.639667 50.299296,-35.018484 49.300524,-39.414856 47.981179,-41.356265 47.50461,-40.932327 47.154082,-38.686015 46.228206,-41.256221 46.991808,-48.183681 47.022617,-51.113515 47.538336,-52.368419 47.569368,-52.6947"}},"distribution": [{"@type": "DataDownload","encodingFormat":"CSV","contentUrl": ""}]}</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:identifier>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>This multidisciplinary 14 day transatlantic survey took place in Aptil 2017 on board the Marine Institute's R.V. Celtic Explorer. This research cruise is a survey that has been conducted annually since 2011 along a similar cruise track, with each year building on the body of work. The planned course intersects a persistent or persistently recurring eddy east of the Newfoundland Grand Banks at about 40W 48N. 
+
+This was the final cruise of a series of collaborative endeavours between the Fisheries and Marine Institute of Memorial University of Newfoundlandand National Univeristy of Ireland, Galway (NUIG) and  completed a valuable dataset on warm core eddies. An eddy is a circular current of water that diverges from the general patterns of ocean flow. The circular motion of the eddy causes greater mixing of water in the eddy, which brings nutrients that would ordinarily be in deep waters up into shallower waters that light can reach.     It provided opportunities to map portions of the midAtlantic ridge, a major aspiration of the Atlantic Ocean Research Alliance. 
+
+During the survey, the M6 Buoy was deployed, CTD (Conductivity-Temperature-Depth) sampling and plankton sampling was carried out, as well as trawling for cephalopod larvae/juveniles . Visual surveys for seabirds were also conducted.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:organisationName>
+                  <gco:CharacterString>Marine Institute</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint>
+                              <gco:CharacterString>Rinville</gco:CharacterString>
+                           </gmd:deliveryPoint>
+                           <gmd:city>
+                              <gco:CharacterString>Oranmore</gco:CharacterString>
+                           </gmd:city>
+                           <gmd:administrativeArea>
+                              <gco:CharacterString>Galway</gco:CharacterString>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode>
+                              <gco:CharacterString>H91 R673</gco:CharacterString>
+                           </gmd:postalCode>
+                           <gmd:country>
+                              <gco:CharacterString>Ireland</gco:CharacterString>
+                           </gmd:country>
+                           <gmd:electronicMailAddress>
+                              <gco:CharacterString>datarequests@marine.ie</gco:CharacterString>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                     <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                           <gmd:linkage>
+                              <gmd:URL>http://www.marine.ie</gmd:URL>
+                           </gmd:linkage>
+                           <gmd:name>
+                              <gco:CharacterString>Marine Institute home page</gco:CharacterString>
+                           </gmd:name>
+                           <gmd:description>
+                              <gco:CharacterString>Marine Institute home page</gco:CharacterString>
+                           </gmd:description>
+                           <gmd:function>
+                              <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                         codeListValue="information"/>
+                           </gmd:function>
+                        </gmd:CI_OnlineResource>
+                     </gmd:onlineResource>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"
+                                   codeListValue="originator">originator</gmd:CI_RoleCode>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode"
+                                                   codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRPRESS/">Atmospheric pressure</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/A05/current/EV_AIRTEMP/">Air temperature</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/">Salinity</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/A05/current/EV_SEATEMP/">Temperature</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/A05/current/EV_WDIR/">Wind direction</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/A05/current/EV_WSPD/">Wind speed</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/A05/current/">AtlantOS Essential Variables</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2019-03-29</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/45CE/">Celtic Explorer</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C17/current/">ICES Platform Codes</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2020-11-10</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C45/current/D1/">Biological diversity maintained</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C45/current/">Marine Strategy Framework Directive descriptors 2010/477/EU</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2017-02-25</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C46/current/C1_6/">Habitat condition</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C46/current/">Marine Strategy Framework Directive criteria 2010/477/EU</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2010-11-11</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C47/current/IN1_6_3/">Physical, hydrological and chemical conditions</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/C47/current/">Marine Strategy Framework Directive indicators 2010/477/EU</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2010-11-11</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L05/current/101/">anemometers</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L05/current/102/">meteorological packages</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L05/current/130/">CTD</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L05/current/133/">thermosalinographs</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L05/current/134/">water temperature sensor</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L05/current/156/">single-beam echosounders</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L05/current/350/">salinity sensor</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L05/current/">SeaDataNet device categories</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2020-09-18</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/31/">research vessel</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L06/current/">SeaVoX Platform Categories</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2020-09-11</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L22/current/TOOL0058/">Sea-Bird SBE 911plus CTD</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L22/current/TOOL0081/">Vaisala HMP temperature and humidity sensor</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L22/current/TOOL0269/">anemometer</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L22/current/TOOL0319/">Kongsberg (Simrad) EA600 Echosounder</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L22/current/TOOL0416/">Sea-Bird SBE 3plus (SBE 3P) temperature sensor</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L22/current/TOOL0417/">Sea-Bird SBE 4C conductivity sensor</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/L22/current/">SeaVoX Device Catalogue</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2020-12-07</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/AADYAA01/">Date (time from 00:00 01/01/1760 to 00:00 UT on day)</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/ADBIOL01/">Abundance of biological entity specified elsewhere per unit length sampled of the water body</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/">Depth (spatial coordinate) relative to water surface in the water body</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/ALATZZ01/1/">Latitude north</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/ALONZZ01/">Longitude east</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/CAPHZZ01/">Pressure (measured variable) exerted by the atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/CHUMZZ01/">Relative humidity of the atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/">Electrical conductivity of the water body</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01/">Temperature of the atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/EGTSZZ01/">Speed of wind (gust) {wind speed} in the atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01/">Direction (from) of wind relative to True North {wind direction} in the atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01/">Speed of wind {wind speed} in the atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/HDNGGP01/">Orientation (horizontal relative to true north) of measurement platform {heading} by unspecified GPS system</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/MBANBLAT/">Sea-floor depth (below Lowest Astronomical Tide datum) {bathymetric depth} in the water body</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/POTDENS0/">Density (potential) of the water body by computation from salinity and potential temperature using UNESCO algorithm with 0 decibar reference pressure</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/PPSCZZ01/">Pressure (measured variable) exerted by the water body plus atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/PSALZZXX/">Practical salinity of the water body by computation using UNESCO 1983 algorithm</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/">Temperature of the water body</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P01/current/">BODC Parameter Usage Vocabulary</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2020-12-12</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/AHGT/">Vertical spatial coordinates</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/ALAT/">Horizontal spatial co-ordinates</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/ASLV/">Sea level</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/AYMD/">Date and time</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/BPRP/">SeaDataNet biological format biotic parameters</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/CAPH/">Air pressure</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/CDTA/">Air temperature</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/CHUM/">Atmospheric humidity</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/CNDC/">Electrical conductivity of the water column</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/EWSB/">Wind strength and direction</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/HEAD/">Platform or instrument orientation</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/MBAN/">Bathymetry and Elevation</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/PSAL/">Salinity of the water column</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/SIGT/">Density of the water column</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/TEMP/">Temperature of the water column</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P02/current/">SeaDataNet Parameter Discovery Vocabulary</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2020-10-21</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/B027/">Other biological measurements</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/D020/">Other physical oceanographic measurements</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/D025/">Water column temperature and salinity</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/D032/">Sea level</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/G005/">Gravity, magnetics and bathymetry</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/M010/">Meteorology</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/T001/">Terrestrial</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/Z005/">Administration and dimensions</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P03/current/">SeaDataNet Agreed Parameter Groups</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2017-05-03</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P05/current/002/">biota</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P05/current/004/">climatologyMeteorologyAtmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P05/current/006/">elevation</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P05/current/013/">location</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P05/current/014/">oceans</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P05/current/">International Standards Organisation ISO19115 Topic Categories</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2005-04-28</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P08/current/DS01/">Biological oceanography</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P08/current/DS03/">Physical oceanography</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P08/current/DS04/">Marine geology</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P08/current/DS05/">Atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P08/current/DS07/">Administration and dimensions</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P08/current/DS08/">Terrestrial</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P08/current/">SeaDataNet Parameter Disciplines</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2017-02-03</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P22/current/1/">Coordinate reference systems</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P22/current/10/">Elevation</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P22/current/163/">Hydrography</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P22/current/2/">Geographical grid systems</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P22/current/26/">Atmospheric conditions</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P22/current/27/">Meteorological geographical features</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P22/current/28/">Oceanographic geographical features</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P22/current/31/">Habitats and biotopes</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/P22/current/">GEMET - INSPIRE themes, version 1.0</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2008-06-01</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S21/current/S21S001/">atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S21/current/S21S017/">not applicable</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S21/current/S21S027/">water body</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S21/current/S21S028/">water body plus atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S21/current/">BODC parameter semantic model sphere names</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2015-02-06</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S25/current/BE007117/">biological entity specified elsewhere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S25/current/">BODC parameter semantic model biological entity names</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2020-12-11</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S26/current/MAT00640/">water body</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S26/current/MAT00843/">atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S26/current/MAT00906/">not applicable</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S26/current/MAT01067/">water body plus atmosphere</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/S26/current/">BODC parameter semantic model matrices</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2019-12-07</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://linked.marine.ie/calendar#2016_April">April</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="temporal">temporal</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://linked.marine.ie/calendar">Marine Institute Calendar Concept Scheme</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2019-02-01</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/">Marine Environmental Data and Information Network</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
+                                          codeListValue="service">service</gmd:MD_KeywordTypeCode>
+               </gmd:type>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://vocab.nerc.ac.uk/collection/N01/current/">MEDIN metadata record availability</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2019-02-01</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://schemas.opengis.net/sf/1.0/simple_features_geometries.rdf#LineString">LineString</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://schemas.opengis.net/sf/1.0/simple_features_geometries.rdf">OGC Simple Feature Types</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2018-04-07</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gmx:Anchor xlink:href="http://purl.org/ie/national-marine-data-centre/datasetCommunities/datasetCollectionActivity">Dataset Collection Activity</gmx:Anchor>
+               </gmd:keyword>
+               <gmd:thesaurusName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gmx:Anchor xlink:href="http://purl.org/ie/national-marine-data-centre/datasetCommunities/">Marine Institute Dataset Communities</gmx:Anchor>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2019-11-18</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                  </gmd:CI_Citation>
+               </gmd:thesaurusName>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+               <gmd:useLimitation>
+                  <gco:CharacterString>Consult license for use limitations</gco:CharacterString>
+               </gmd:useLimitation>
+               <gmd:useLimitation>
+                  <gmd:MD_ClassificationCode codeList="http://data.marine.ie/resources/Codelist/gmxCodelists.xml#MI_RestrictionCode"
+                                             codeListValue="cc-by4.0">CC-By 4.0</gmd:MD_ClassificationCode>
+               </gmd:useLimitation>
+            </gmd:MD_Constraints>
+         </gmd:resourceConstraints>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode"
+                                          codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+               </gmd:accessConstraints>
+               <gmd:otherConstraints/>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation id="instrument-00001">
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:instrument.47</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="sensor">sensor</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation id="instrument-00002">
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:instrument.48</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="sensor">sensor</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation id="instrument-00003">
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:instrument.161</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="sensor">sensor</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation id="instrument-00004">
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:instrument.181</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="sensor">sensor</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation id="instrument-00005">
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:instrument.45</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="sensor">sensor</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation id="instrument-00006">
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:instrument.195</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="sensor">sensor</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation id="instrument-00007">
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:instrument.198</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="sensor">sensor</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation id="instrument-00008">
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:instrument.199</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="sensor">sensor</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation id="instrument-00009">
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:instrument.191</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="sensor">sensor</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation id="platform">
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:platform.33</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="platform">platform</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation>
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:dataset.848</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="collection">collection</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation>
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:dataset.845</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="collection">collection</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation>
+               <gmd:aggregateDataSetIdentifier>
+                  <gmd:MD_Identifier>
+                     <gmd:code>
+                        <gco:CharacterString>ie.marine.data:dataset.3978</gco:CharacterString>
+                     </gmd:code>
+                  </gmd:MD_Identifier>
+               </gmd:aggregateDataSetIdentifier>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="collection">collection</gmd:DS_InitiativeTypeCode>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:aggregationInfo>
+            <gmd:MD_AggregateInformation>
+               <gmd:aggregateDataSetName>
+                  <gmd:CI_Citation>
+                     <gmd:title>
+                        <gco:CharacterString>Atlantic Ocean Research Alliance Coordination and Support Action (AORAC-SA)</gco:CharacterString>
+                     </gmd:title>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2015-03-01</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="adopted">adopted</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:date>
+                        <gmd:CI_Date>
+                           <gmd:date>
+                              <gco:Date>2020-02-29</gco:Date>
+                           </gmd:date>
+                           <gmd:dateType>
+                              <gmd:CI_DateTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode"
+                                                   codeListValue="expiry">expiry</gmd:CI_DateTypeCode>
+                           </gmd:dateType>
+                        </gmd:CI_Date>
+                     </gmd:date>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>https://www.atlanticresource.org/aora/</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Atlantic Ocean Research Alliance Coordination and Support Action (AORAC-SA) home page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Atlantic Ocean Research Alliance Coordination and Support Action (AORAC-SA) home page</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information"/>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Marine Institute</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>Rinville</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Oranmore</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>Galway</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>H91 R673</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>Ireland</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>datarequests@marine.ie</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://www.marine.ie</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Marine Institute home page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Marine Institute home page</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information"/>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="principalInvestigator">principalInvestigator</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>International Council for the Exploration of the Seas (ICES)</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>ICES</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>H.C. Andersens Boulevard 44-46</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>Copenhagen V</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>DK-1553</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>Denmark</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>info@ices.dk</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://www.ices.dk/Pages/default.aspx</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>International Council for the Exploration of the Seas (ICES) home page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>International Council for the Exploration of the Seas (ICES) home page</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information"/>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="contributor">contributor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Institut Français de Recherche pour l'Exploitation de la Mer (IFREMER)</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>ZI Pointe du diable CS</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Plouzane</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>Brest</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>10070</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>France</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>communication@ifremer.fr</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://www.ifremer.fr/brest/</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Institut Français de Recherche pour l'Exploitation de la Mer (IFREMER) home page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Institut Français de Recherche pour l'Exploitation de la Mer (IFREMER) home page</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information"/>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="contributor">contributor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Plataforma Oceanica de Canarias (PLOCAN)</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>Carretera de Taliarte s/n (Lighthouse)</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Telde</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>Gran Canaria</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>35200</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>Spain</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>info@plocan.eu</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>https://www.plocan.eu/</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Plataforma Oceanica de Canarias (PLOCAN) home page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Plataforma Oceanica de Canarias (PLOCAN) home page</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information"/>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="contributor">contributor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Havforskningsinstituttet (Institute of Marine Research)</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>PO Box 1870 Nordnes</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Bergen</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>7468</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>Norway</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>post@hi.no</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>https://www.hi.no/hi</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Havforskningsinstituttet (Institute of Marine Research) home page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Havforskningsinstituttet (Institute of Marine Research) home page</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information"/>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="contributor">contributor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Rannis - The Icelandic Centre for Research</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>Borgartún 30</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Reykjavík</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>S-105</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>Iceland</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>rannis@rannis.is</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>https://www.rannis.is/</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Rannis - The Icelandic Centre for Research home page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Rannis - The Icelandic Centre for Research home page</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information"/>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="contributor">contributor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Pavilhao do Conhecimento - Centro Ciencia Viva</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>Largo Jose Mariano Gago, no. 1, Parque das Nacoes</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Lisbon</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>1990-073</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>Portugal</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>info@.pavconhecimento.pt</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>https://www.pavconhecimento.pt/</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Pavilhao do Conhecimento - Centro Ciencia Viva home page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Pavilhao do Conhecimento - Centro Ciencia Viva home page</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information"/>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="contributor">contributor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>World Ocean Council</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>3035 Hibiscus Drive Suite 1 Suite 1</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Honolulu</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:administrativeArea>
+                                          <gco:CharacterString>Hawaii</gco:CharacterString>
+                                       </gmd:administrativeArea>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>HI 96815</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>United States of America</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>contact@oceancouncil.org</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>https://www.oceancouncil.org/</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>World Ocean Council home page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>World Ocean Council home page</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information"/>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="contributor">contributor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                           <gmd:organisationName>
+                              <gco:CharacterString>Ministerio da Ciencia, Tecnologia, Inovacoes e Comunicacoes</gco:CharacterString>
+                           </gmd:organisationName>
+                           <gmd:contactInfo>
+                              <gmd:CI_Contact>
+                                 <gmd:address>
+                                    <gmd:CI_Address>
+                                       <gmd:deliveryPoint>
+                                          <gco:CharacterString>Esplanada Dos Ministerios, Bloco E, Sala 562</gco:CharacterString>
+                                       </gmd:deliveryPoint>
+                                       <gmd:city>
+                                          <gco:CharacterString>Brasilia</gco:CharacterString>
+                                       </gmd:city>
+                                       <gmd:postalCode>
+                                          <gco:CharacterString>70067-900</gco:CharacterString>
+                                       </gmd:postalCode>
+                                       <gmd:country>
+                                          <gco:CharacterString>Brazil</gco:CharacterString>
+                                       </gmd:country>
+                                       <gmd:electronicMailAddress>
+                                          <gco:CharacterString>setap@mctic.gov.br</gco:CharacterString>
+                                       </gmd:electronicMailAddress>
+                                    </gmd:CI_Address>
+                                 </gmd:address>
+                                 <gmd:onlineResource>
+                                    <gmd:CI_OnlineResource>
+                                       <gmd:linkage>
+                                          <gmd:URL>http://www.mctic.gov.br/portal</gmd:URL>
+                                       </gmd:linkage>
+                                       <gmd:name>
+                                          <gco:CharacterString>Ministerio da Ciencia, Tecnologia, Inovacoes e Comunicacoes home page</gco:CharacterString>
+                                       </gmd:name>
+                                       <gmd:description>
+                                          <gco:CharacterString>Ministerio da Ciencia, Tecnologia, Inovacoes e Comunicacoes home page</gco:CharacterString>
+                                       </gmd:description>
+                                       <gmd:function>
+                                          <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                                     codeListValue="information"/>
+                                       </gmd:function>
+                                    </gmd:CI_OnlineResource>
+                                 </gmd:onlineResource>
+                              </gmd:CI_Contact>
+                           </gmd:contactInfo>
+                           <gmd:role>
+                              <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
+                                               codeListValue="contributor">contributor</gmd:CI_RoleCode>
+                           </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                     </gmd:citedResponsibleParty>
+                     <gmd:otherCitationDetails>
+                        <gco:CharacterString>The Atlantic Ocean Research Alliance Coordination and Support Action (AORAC-SA) is designed to provide scientific, technical and logistical support to the European Commission in developing and implementing trans-Atlantic Marine Research Cooperation between the European Union, the United States of America and Canada. The Coordination and Support Action (CSA) is carried out within the framework of the Atlantic Ocean Research Alliance as outlined in the Galway Statement on Atlantic Ocean Cooperation (May 2013). Recognising the evolving nature of the Atlantic Ocean Research Alliance, the hallmark of this proposal is that it is flexible, responsive, inclusive, efficient, innovative, value-adding and supportive.
+ 
+ To support the Commission in negotiations with the USA and Canada on trans-Atlantic Ocean Research Cooperation, the AORAC-SA support and governance structure comprises a Secretariat and Management Team, guided by a high-level Operational Board, representative of the major European Marine Research Programming and Funding Organisations as well as those of the USA and Canada. This structure is further able to draw on significant marine research expertise and experience through its partner organisations
+ 
+ The CSA, reporting to the Commission representatives of the Atlantic Ocean Research Alliance, will be responsible for the organisation of expert and stakeholder meetings, workshops and conferences required by the Atlantic Ocean Research Alliance and related to identified research priorities (e.g. marine ecosystem-approach, observing systems, marine biotechnology, aquaculture, ocean literacy, seabed and benthic habitat mapping), support actions (e.g. shared access to infrastructure, dissemination and knowledge transfer, establishment of a knowledge sharing platform) and other initiatives as they arise, taking into account related Horizon 2020 supported trans-Atlantic projects and on-going national and EU collaborative projects.
+ 
+ The Atlantic Ocean Research Alliance Coordination and Support Action has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 652677.</gco:CharacterString>
+                     </gmd:otherCitationDetails>
+                  </gmd:CI_Citation>
+               </gmd:aggregateDataSetName>
+               <gmd:associationType>
+                  <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode"
+                                              codeListValue="largerWorkCitation"/>
+               </gmd:associationType>
+               <gmd:initiativeType>
+                  <gmd:DS_InitiativeTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_InitiativeTypeCode"
+                                             codeListValue="project"/>
+               </gmd:initiativeType>
+            </gmd:MD_AggregateInformation>
+         </gmd:aggregationInfo>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/itff/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"
+                                                  codeListValue="grid">grid</gmd:MD_SpatialRepresentationTypeCode>
+         </gmd:spatialRepresentationType>
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+               <gmd:distance gco:nilReason="unknown"/>
+            </gmd:MD_Resolution>
+         </gmd:spatialResolution>
+         <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng">eng</gmd:LanguageCode>
+         </gmd:language>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>elevation</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>location</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="timeperiod1">
+                           <gml:beginPosition>2016-04-07T00:00:00</gml:beginPosition>
+                           <gml:endPosition>2016-04-21T23:59:59</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-52.6947</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>-9.0489469999999</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>46.228206</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>53.269818</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+               <gmd:geographicElement>
+                  <gmd:EX_BoundingPolygon>
+                     <gmd:extentTypeCode>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:extentTypeCode>
+                     <gmd:polygon>
+                        <gml:LineString gml:id="ie.marine.data..feature.270" srsName="urn:ogc:def:crs:EPSG::3857">
+                           <gml:identifier codeSpace="http://data.marine.ie">ie.marine.data:feature.270</gml:identifier>
+                           <gml:pos>-9.0489469999999 53.269818</gml:pos>
+                           <gml:pos>-9.099379 53.232295</gml:pos>
+                           <gml:pos>-9.994269 53.179549</gml:pos>
+                           <gml:pos>-11.633311 53.126646</gml:pos>
+                           <gml:pos>-15.410731 52.952656</gml:pos>
+                           <gml:pos>-19.01611 52.53276</gml:pos>
+                           <gml:pos>-27.639667 51.53285</gml:pos>
+                           <gml:pos>-35.018484 50.299296</gml:pos>
+                           <gml:pos>-39.414856 49.300524</gml:pos>
+                           <gml:pos>-41.356265 47.981179</gml:pos>
+                           <gml:pos>-40.932327 47.50461</gml:pos>
+                           <gml:pos>-38.686015 47.154082</gml:pos>
+                           <gml:pos>-41.256221 46.228206</gml:pos>
+                           <gml:pos>-48.183681 46.991808</gml:pos>
+                           <gml:pos>-51.113515 47.022617</gml:pos>
+                           <gml:pos>-52.368419 47.538336</gml:pos>
+                           <gml:pos>-52.6947 47.569368</gml:pos>
+                        </gml:LineString>
+                     </gmd:polygon>
+                  </gmd:EX_BoundingPolygon>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+      </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:distributionFormat>
+            <gmd:MD_Format>
+               <gmd:name>
+                  <gco:CharacterString>CSV</gco:CharacterString>
+               </gmd:name>
+               <gmd:version gco:nilReason="inapplicable">
+                  <gco:CharacterString/>
+               </gmd:version>
+            </gmd:MD_Format>
+         </gmd:distributionFormat>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL/>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>CSV</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>CSV</gco:CharacterString>
+                     </gmd:description>
+                     <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode"
+                                                   codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                     </gmd:function>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://www.marine.ie</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString/>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Marine Institute home page</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>https://www.atlanticresource.org/aora/</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString/>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>Atlantic Ocean Research Alliance Coordination and Support Action (AORAC-SA) home page</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeListValue="dataset"
+                                    codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode">dataset</gmd:MD_ScopeCode>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:report>
+            <gmd:DQ_DomainConsistency>
+               <gmd:result>
+                  <gmd:DQ_ConformanceResult>
+                     <gmd:specification>
+                        <gmd:CI_Citation>
+                           <gmd:title>
+                              <gco:CharacterString>Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</gco:CharacterString>
+                           </gmd:title>
+                           <gmd:date>
+                              <gmd:CI_Date>
+                                 <gmd:date>
+                                    <gco:Date>2010-12-08</gco:Date>
+                                 </gmd:date>
+                                 <gmd:dateType>
+                                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                                         codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                                 </gmd:dateType>
+                              </gmd:CI_Date>
+                           </gmd:date>
+                        </gmd:CI_Citation>
+                     </gmd:specification>
+                     <gmd:explanation>
+                        <gco:CharacterString>See the referenced specification</gco:CharacterString>
+                     </gmd:explanation>
+                     <gmd:pass>
+                        <gco:Boolean>true</gco:Boolean>
+                     </gmd:pass>
+                  </gmd:DQ_ConformanceResult>
+               </gmd:result>
+            </gmd:DQ_DomainConsistency>
+         </gmd:report>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>Data supplied by Marine Institute.</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
