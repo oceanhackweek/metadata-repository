@@ -7,12 +7,20 @@ import pandas as pd
 def main():
 
     kg = kglab.KnowledgeGraph().load_rdf("emodnet_metadata.xml", format="xml")
+    
+    VIS_STYLE = {
+    "_": {
+        "color": "orange",
+        "size": 40
+    }
+}
 
-    #subgraph = kglab.SubgraphTensor(kg)
-    #pyvis_graph = subgraph.build_pyvis_graph()
 
-    #pyvis_graph.force_atlas_2based()
-    #pyvis_graph.show("tmp.fig03.html")
+    subgraph = kglab.SubgraphTensor(kg)
+    pyvis_graph = subgraph.build_pyvis_graph(style = VIS_STYLE)
+
+    pyvis_graph.force_atlas_2based()
+    pyvis_graph.show("tmp.metadata.html")
     
     # SPARQL Query
     sparql = """
@@ -25,9 +33,9 @@ SELECT ?dataset ?title ?id
   
   """
     
-    df = kg.query_as_df(sparql)
+    #df = kg.query_as_df(sparql)
     
-    df.to_csv("emodnet_dataset_id.csv")
+    #df.to_csv("emodnet_dataset_id.csv")
     
     
 
