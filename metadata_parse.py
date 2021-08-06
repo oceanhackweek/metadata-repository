@@ -5,14 +5,21 @@ import kglab
 import pandas as pd
 
 def main():
-
+    
+    # Load emodnet data into knowledge graph (kg)
     kg = kglab.KnowledgeGraph().load_rdf("emodnet_metadata.xml", format="xml")
+    
+    #Load erddap data into kg
+    kg.load_rdf("iso_rdf.xml", format="xml")
     
     VIS_STYLE = {
     "_": {
         "color": "orange",
         "size": 40
-    }
+    },
+    "iso": {"color": "red",
+           "size": 40}
+        
 }
 
 
