@@ -30,7 +30,7 @@ def get_keywords(soup):
 def main():
 
     #'''
-    df = pd.read_csv("erddap_iso.csv")
+    df = pd.read_csv("../data/erddap_iso.csv")
     url_list = list(df[df.columns[0]])
 
     # Attribute lists
@@ -64,7 +64,7 @@ def main():
     print(iso_df["keywords"])
     print(type(iso_df["keywords"][0]))
     
-    iso_df.to_csv("iso_extract.csv")
+    iso_df.to_csv("./output/iso_extract.csv")
     #'''
     # Test
     #print(file_id_list)
@@ -74,7 +74,7 @@ def main():
     #iso_df = pd.read_csv("iso_extract.csv")
     
     # Build RDF
-    fo = open("iso_rdf.xml", "w")
+    fo = open("./output/iso_rdf.xml", "w")
 
     fo.write("<?xml version = '1.0' encoding='UTF-8'?>")
     

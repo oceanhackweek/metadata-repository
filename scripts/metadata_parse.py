@@ -7,10 +7,10 @@ import pandas as pd
 def main():
     
     # Load emodnet data into knowledge graph (kg)
-    kg = kglab.KnowledgeGraph().load_rdf("emodnet_metadata.xml", format="xml")
+    kg = kglab.KnowledgeGraph().load_rdf("../data/emodnet_metadata.xml", format="xml")
     
     #Load erddap data into kg
-    kg.load_rdf("iso_rdf.xml", format="xml")
+    kg.load_rdf("../data/iso_rdf.xml", format="xml")
     
     VIS_STYLE = {
     "_": {
@@ -27,7 +27,7 @@ def main():
     pyvis_graph = subgraph.build_pyvis_graph(style = VIS_STYLE)
 
     pyvis_graph.force_atlas_2based()
-    pyvis_graph.show("tmp.metadata.html")
+    pyvis_graph.show("./output/tmp.metadata.html")
     
     # SPARQL Query
     sparql = """

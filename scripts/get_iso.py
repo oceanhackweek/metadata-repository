@@ -5,7 +5,7 @@ import urllib.request
 
 def main():
     
-    df = pd.read_csv("erddap_iso.csv", sep="\n")
+    df = pd.read_csv("../data/erddap_iso.csv", sep="\n")
     iso_list = []
     url_list = list(df[df.columns[0]])
     
@@ -16,7 +16,7 @@ def main():
     #print(response)
     
     # Create a file to hold ISO XML
-    fo = open("erddap_iso_combined.xml", "x")
+    fo = open("./output/erddap_iso_combined.xml", "x")
     
     fo.write("<?xml version = '1.0' encoding='UTF-8'?>")
     
